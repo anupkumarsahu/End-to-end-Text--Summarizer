@@ -1,0 +1,15 @@
+artifacts_root: artifacts
+
+
+# Data ingestion configuration
+# ----------------
+#   root_dir: location for all artifacts
+#   source_url: url for samsumdata sources
+#   local_data_file: Local location to store data downloaded from sources
+#   unzip_data: Location to unzip the data downloaded
+# ----------------
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/anupkumarsahu/datasets/raw/main/summarizer-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
